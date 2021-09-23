@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+}
+
+.header h2 {
+  font-size: 30px;
+}
+
+.header h3 {
+  font-size: 22px;
+}
+

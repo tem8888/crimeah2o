@@ -1,0 +1,18 @@
+.footer {
+  text-align: center;
+  line-height: 2em;
+  padding: 30px;
+  color: var(--white-col);
+  background-color: var(--blue-col);
+  box-shadow: 0px 10px 22px -7px rgba(0, 14, 51, 1);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.footer > a {
+  color: var(--white-col);
+}
+
+.footer > a:hover {
+  border-bottom: 1px solid white;
+}

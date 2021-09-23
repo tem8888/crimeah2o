@@ -1,0 +1,22 @@
+.links {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 0 15px;
+}
+
+.links > a {
+  padding: 10px 0;
+  margin: 5px 0;
+  border: 1px solid transparent;
+  font-weight: 600;
+}
+
+.links > a:hover {
+  border-bottom: 1px solid var(--black-col);
+}
+
+@media (max-width: 1024px) {
+  .links {
+    display: none;
+  }
+}

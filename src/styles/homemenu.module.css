@@ -1,0 +1,35 @@
+.homeMenu {
+  display: flex;
+  align-items: baseline;
+  padding: 15px;
+  background-color: var(--white-col);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.homeMenu > a {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.homeMenu > a > img {
+  width: 160px;
+}
+
+.homeMenuTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .homeMenu {
+    flex-direction: column;
+  }
+  .homeMenu > a {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-bottom: 20px;
+  }
+}
