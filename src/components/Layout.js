@@ -6,6 +6,7 @@ import SideBar from "../components/SideBar"
 import { Link } from "gatsby"
 import Footer from "./Footer"
 import MobileNav from "./MobileNav"
+import imgLogo from "../images/logo.png"
 
 export default function Layout({ children }) {
   return (
@@ -14,7 +15,7 @@ export default function Layout({ children }) {
         <MobileNav />
         <div className="top-header">
           <Link to="/">
-            <img src="/logo.png" alt="Логотип" />
+            <img src={imgLogo} alt="Логотип" />
           </Link>
           <div className="info">
             <span className="info__header">Заказ воды:</span>

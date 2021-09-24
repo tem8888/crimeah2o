@@ -28,7 +28,7 @@ img {
 }
 
 body {
-  background: url("/texture.jpg");
+  background: url("../images/texture.jpg");
   background-attachment: fixed;
 }
 
@@ -85,7 +85,7 @@ nav {
 }
 
 .top-header {
-  background: url("/leaf-top-300x177.png");
+  background: url("../images/leaf-top-300x177.png");
   background-position: 62% top;
   background-repeat: no-repeat;
   display: flex;

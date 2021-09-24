@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import * as styles from "../styles/sidebar.module.css"
+import imgLibraButton from "../images/librabutton.png"
+import imgPromo from "../images/pompa-promo.jpg"
 
 export default function SideBar() {
   return (
@@ -14,10 +16,10 @@ export default function SideBar() {
       </nav>
       <span style={{ margin: "20px 0px" }}>
         <Link to="https://librasimferopol.ru/?s_cat=229">
-          <img src="/librabutton.png" alt="Либра.онлайн" />
+          <img src={imgLibraButton} alt="Либра.онлайн" />
         </Link>
       </span>
-      <img src="/pompa-promo.jpg" alt="Акция - Помпа 300р" width="250" />
+      <img src={imgPromo} alt="Акция - Помпа 300р" width="250" />
     </aside>
   )
 }
