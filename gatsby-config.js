@@ -33,5 +33,5 @@ module.exports = {
   flags: {
     DEV_SSR: false,
   },
-  pathPrefix: "/reponame",
+  pathPrefix: "/crimeah2o",
 }
