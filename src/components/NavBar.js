@@ -12,7 +12,6 @@ export default function NavBar() {
       }
     }
   `)
-  const { title } = data.site.siteMetadata
   return (
     <nav className={styles.links}>
       <Link to="/">Главная</Link>

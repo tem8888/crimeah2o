@@ -25,6 +25,19 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     "gatsby-transformer-remark",
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "CrimeaH2O",
+        short_name: "CrimeaH2O",
+        start_url: "/",
+        background_color: "#f7f0eb",
+        theme_color: "#a2466c",
+        display: "standalone",
+        icon: "src/images/favicon.png",
+      },
+    },
   ],
   siteMetadata: {
     title: "Доставка воды",

@@ -2,11 +2,17 @@ import { graphql } from "gatsby"
 import React from "react"
 import HomeMenu from "../components/HomeMenu"
 import Layout from "../components/Layout"
+import { Helmet } from "react-helmet"
 
 export default function Home({ data }) {
   // const { title, description } = data.site.siteMetadata
   return (
     <Layout>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Единая доставка воды в Крыму</title>
+        <link rel="canonical" href="http://crimea-h2o.ru/" />
+      </Helmet>
       <HomeMenu />
       <section className="seo">
         <h3>Большой выбор и лучшие цены!</h3>
