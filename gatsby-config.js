@@ -46,5 +46,4 @@ module.exports = {
   flags: {
     DEV_SSR: false,
   },
-  pathPrefix: "/crimeah2o",
 }
