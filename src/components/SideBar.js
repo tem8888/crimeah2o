@@ -15,9 +15,9 @@ export default function SideBar() {
         <Link to="/filtry-dlya-vody">Фильтры для воды</Link>
       </nav>
       <span style={{ margin: "20px 0px" }}>
-        <Link to="https://librasimferopol.ru/?s_cat=229">
+        <a href="https://librasimferopol.ru/?s_cat=229">
           <img src={imgLibraButton} alt="Либра.онлайн" />
-        </Link>
+        </a>
       </span>
       <img src={imgPromo} alt="Акция - Помпа 300р" width="250" />
     </aside>

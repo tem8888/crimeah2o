@@ -37,7 +37,7 @@ const ItemVoda = () => {
           </div>
           <div className={styles.productBody}>
             <h2>{product.frontmatter.title}</h2>
-            <p dangerouslySetInnerHTML={{ __html: product.html }}></p>
+            <div dangerouslySetInnerHTML={{ __html: product.html }}></div>
           </div>
         </div>
       ))}
