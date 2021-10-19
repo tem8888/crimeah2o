@@ -1,9 +1,15 @@
 import React from "react"
 import Layout from "../components/Layout"
+import { Helmet } from "react-helmet"
 
 export default function dostavka() {
   return (
     <Layout>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Доставка и оплата</title>
+        <link rel="canonical" href="https://crimea-h2o.ru/dostavka-i-oplata" />
+      </Helmet>
       <h1 style={{ textAlign: "center" }}>Доставка и оплата</h1>
       <p style={{ color: "red", fontWeight: "bold" }}>
         Мы предлагаем своим клиентам доставку воды и других товаров по

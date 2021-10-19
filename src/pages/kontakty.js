@@ -1,9 +1,15 @@
 import React from "react"
 import Layout from "../components/Layout"
+import { Helmet } from "react-helmet"
 
 export default function kontakty() {
   return (
     <Layout>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Контакты</title>
+        <link rel="canonical" href="https://crimea-h2o.ru/kontakty" />
+      </Helmet>
       <h1 style={{ textAlign: "center" }}>Контакты</h1>
       <p>
         {" "}
