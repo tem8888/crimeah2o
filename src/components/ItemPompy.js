@@ -1,9 +1,9 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import * as styles from "../styles/productcard.module.css"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import * as styles from "../styles/productcard.module.css"
 
-const ItemEquipment = ({}) => {
+const ItemEquipment = () => {
   const data = useStaticQuery(graphql`
     query Pompy {
       allMarkdownRemark(

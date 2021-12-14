@@ -1,6 +1,6 @@
 import React from "react"
-import Layout from "../components/Layout"
 import { Helmet } from "react-helmet"
+import Layout from "../components/Layout"
 
 export default function tech() {
   return (

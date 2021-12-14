@@ -3,11 +3,11 @@ import { graphql, useStaticQuery } from "gatsby"
 import * as styles from "../styles/productcard.module.css"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
-const ItemEquipment = () => {
+const ItemEquipment = ({}) => {
   const data = useStaticQuery(graphql`
-    query Oborudovanie {
+    query Aksessuar {
       allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/(oborudovanie)/" } }
+        filter: { fileAbsolutePath: { regex: "/(aksessuary)/" } }
         sort: { fields: frontmatter___order }
       ) {
         nodes {

@@ -1,8 +1,8 @@
 import { graphql } from "gatsby"
 import React from "react"
+import { Helmet } from "react-helmet"
 import HomeMenu from "../components/HomeMenu"
 import Layout from "../components/Layout"
-import { Helmet } from "react-helmet"
 
 export default function Home({ data }) {
   // const { title, description } = data.site.siteMetadata

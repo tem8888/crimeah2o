@@ -15,6 +15,7 @@ function MobileNav() {
           <Link to="/">Главная</Link>
           <Link to="/voda-19-l">Вода 19 литров</Link>
           <Link to="/kulery">Кулеры для воды</Link>
+          <Link to="/aksessuary">Аксессуары</Link>
           <Link to="/pompy">Помпы</Link>
           <Link to="/tehobsluzhivanie-i-remont">Техобслуживание и ремонт</Link>
           <Link to="/dostavka-i-oplata">Доставка и оплата</Link>

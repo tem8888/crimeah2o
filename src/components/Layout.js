@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import NavBar from "../components/NavBar"
 import "normalize.css"
 import "../styles/global.css"
@@ -7,7 +8,6 @@ import { Link } from "gatsby"
 import Footer from "./Footer"
 import MobileNav from "./MobileNav"
 import imgLogo from "../images/logo.png"
-import { Helmet } from "react-helmet"
 
 export default function Layout({ children }) {
   return (
