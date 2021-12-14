@@ -8,13 +8,16 @@ import { Link } from "gatsby"
 import Footer from "./Footer"
 import MobileNav from "./MobileNav"
 import imgLogo from "../images/logo.png"
+import { YMInitializer } from 'react-yandex-metrika';
 
 export default function Layout({ children }) {
   return (
     <div className="layout">
       <Helmet>
         <meta name="yandex-verification" content="90586fa2622677ce" />
-      </Helmet>
+        {/* <script src="../scripts/yandex.js" type="text/javascript" /> */}
+       </Helmet>
+       <YMInitializer accounts={[86876986]} />
       <header>
         <MobileNav />
         <div className="top-header">

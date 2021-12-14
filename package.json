@@ -15,7 +15,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "^3.14.0",
+    "gatsby": "^3.14.6",
     "gatsby-plugin-image": "^1.14.0",
     "gatsby-plugin-manifest": "^3.14.0",
     "gatsby-plugin-react-helmet": "^4.14.0",
@@ -28,7 +28,8 @@
     "normalize.css": "^8.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-yandex-metrika": "^2.6.0"
   },
   "devDependencies": {
     "gh-pages": "^3.2.3",
