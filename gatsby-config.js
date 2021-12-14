@@ -6,6 +6,11 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    siteUrl: `https://crimea-h2o.ru/`,
+    title: "Доставка воды",
+    description: "Единая доставка воды в Крыму",
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -41,11 +46,6 @@ module.exports = {
       },
     },
   ],
-  siteMetadata: {
-    siteUrl: `https://crimea-h2o.ru`,
-    title: "Доставка воды",
-    description: "Единая доставка воды в Крыму",
-  },
   flags: {
     DEV_SSR: false,
   },
