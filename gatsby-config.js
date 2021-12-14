@@ -26,6 +26,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     "gatsby-transformer-remark",
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -40,6 +41,7 @@ module.exports = {
     },
   ],
   siteMetadata: {
+    siteUrl: `https://crimea-h2o.ru`,
     title: "Доставка воды",
     description: "Единая доставка воды в Крыму",
   },

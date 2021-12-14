@@ -18,8 +18,6 @@ export default function NavBar() {
 
       <Link to="/tehobsluzhivanie-i-remont">Техобслуживание и ремонт</Link>
 
-      <Link to="/gruzoperevozki">Грузоперевозки</Link>
-
       <Link to="/polezno-znat">Полезно знать</Link>
 
       <Link to="/dostavka-i-oplata">Доставка и оплата</Link>
