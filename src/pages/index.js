@@ -12,6 +12,7 @@ export default function Home({ data }) {
         <meta charSet="utf-8" />
         <title>Единая доставка воды в Крыму</title>
         <link rel="canonical" href="http://crimea-h2o.ru/" />
+        <meta name="yandex-verification" content="90586fa2622677ce" />
       </Helmet>
       <HomeMenu />
       <section className="seo">
