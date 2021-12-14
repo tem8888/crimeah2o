@@ -10,6 +10,8 @@ export default function oborudovanie() {
         <meta charSet="utf-8" />
         <title>Оборудование</title>
         <link rel="canonical" href="https://crimea-h2o.ru/oborudovanie" />
+        <meta name="description" content="Доставка воды и оборудования в Крыму"/>
+        <meta name="keywords" content="вода, доставка, раздатчик воды, симферополь, крым"/>
       </Helmet>
       <h1 style={{ textAlign: "center" }}>Оборудование</h1>
       <ItemEquipment />
