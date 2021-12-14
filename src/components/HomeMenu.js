@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 import * as styles from "../styles/homemenu.module.css"
 import img19l from "../images/19lw.jpg"
 import imgPet from "../images/pet2.jpg"
-import imgOborud from "../images/oborudov.jpg"
+import imgOborud from "../images/aquawell-1.jpg"
 import imgTea from "../images/tea.jpg"
-import imgProduct from "../images/product.jpg"
+import imgPomp from "../images/pomp.jpg"
 
 export default function HomeMenu() {
   return (
@@ -27,7 +27,7 @@ export default function HomeMenu() {
         Сопутствующие товары
       </Link>
       <Link to="/pompy">
-        <img src={imgProduct} alt="Помпы" />
+        <img src={imgPomp} alt="Помпы" />
         Помпы
       </Link>
     </div>
