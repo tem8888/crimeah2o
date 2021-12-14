@@ -11,7 +11,7 @@ export default function SideBar() {
         <Link to="/voda-19-l">Вода 19 л</Link>
         <Link to="/voda-v-pet">Вода в ПЭТ</Link>
         <Link to="/kulery">Кулеры для воды</Link>
-        <Link to="/produkty">Продукты</Link>
+        <Link to="/pompy">Помпы</Link>
         <Link to="/filtry-dlya-vody">Фильтры для воды</Link>
       </nav>
       <span style={{ margin: "20px 0px" }}>

@@ -18,17 +18,17 @@ export default function HomeMenu() {
         <img src={imgPet} alt="Вода в ПЭТ" />
         Вода в ПЭТ
       </Link>
-      <Link to="/oborudovanie">
-        <img src={imgOborud} alt="Оборудование" />
-        Оборудование
+      <Link to="/kulery">
+        <img src={imgOborud} alt="Кулеры для воды" />
+        Кулеры для воды
       </Link>
       <Link to="/soputstvuyushhie-tovary">
         <img src={imgTea} alt="Сопутствующие товары" />
         Сопутствующие товары
       </Link>
-      <Link to="/produkty">
-        <img src={imgProduct} alt="Продукты" />
-        Продукты
+      <Link to="/pompy">
+        <img src={imgProduct} alt="Помпы" />
+        Помпы
       </Link>
     </div>
   )
