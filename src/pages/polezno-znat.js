@@ -1,10 +1,16 @@
 import React from "react"
 import Layout from "../components/Layout"
 import imgWater from "../images/water.jpg"
+import { Helmet } from "react-helmet"
 
 export default function polezno() {
   return (
     <Layout>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Полезно знать</title>
+        <link rel="canonical" href="http://crimea-h2o.ru/polezno-znat" />
+      </Helmet>
       <h1 style={{ textAlign: "center" }}>Интересные факты о воде</h1>
       <div className="content">
         <img src={imgWater} alt="Вода" style={{ float: "left", width: '38%', marginRight: '20px' }}/><p>Каждому живому организму жизненно необходима вода, покрывающая 71% площади Земли. Без еды человек способен жить 3 месяца, а без воды — только 3-4 дня. Поэтому необходимо беречь природные водные источники, ведь пригодной к питью жидкости становится всё меньше.

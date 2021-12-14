@@ -14,7 +14,7 @@ function MobileNav() {
         <div className={styles.mobileNav}>
           <Link to="/">Главная</Link>
           <Link to="/voda-19-l">Вода 19 литров</Link>
-          <Link to="/oborudovanie">Оборудование</Link>
+          <Link to="/kulery">Кулеры для воды</Link>
           <Link to="/produkty">Продукты</Link>
           <Link to="/tehobsluzhivanie-i-remont">Техобслуживание и ремонт</Link>
           <Link to="/dostavka-i-oplata">Доставка и оплата</Link>

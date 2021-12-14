@@ -7,10 +7,14 @@ import { Link } from "gatsby"
 import Footer from "./Footer"
 import MobileNav from "./MobileNav"
 import imgLogo from "../images/logo.png"
+import { Helmet } from "react-helmet"
 
 export default function Layout({ children }) {
   return (
     <div className="layout">
+      <Helmet>
+        <meta name="yandex-verification" content="90586fa2622677ce" />
+      </Helmet>
       <header>
         <MobileNav />
         <div className="top-header">

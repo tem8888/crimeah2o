@@ -10,7 +10,7 @@ export default function SideBar() {
       <nav>
         <Link to="/voda-19-l">Вода 19 л</Link>
         <Link to="/voda-v-pet">Вода в ПЭТ</Link>
-        <Link to="/oborudovanie">Оборудование</Link>
+        <Link to="/kulery">Кулеры для воды</Link>
         <Link to="/produkty">Продукты</Link>
         <Link to="/filtry-dlya-vody">Фильтры для воды</Link>
       </nav>
