@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import * as styles from "../styles/homemenu.module.css"
 import img19l from "../images/19lw.jpg"
 import imgPet from "../images/pet2.jpg"
-import imgOborud from "../images/aquawell-1.jpg"
+import imgOborud from "../images/kuller_main.jpg"
 import imgPosuda from "../images/posuda.jpg"
 import imgPomp from "../images/pomp.jpg"
 
