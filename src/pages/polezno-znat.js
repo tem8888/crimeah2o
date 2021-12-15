@@ -8,6 +8,7 @@ export default function polezno() {
     <Layout>
       <Helmet>
         <meta charSet="utf-8" />
+        <meta name="description" content="Интересные свойства воды."/>
         <title>Полезно знать</title>
         <link rel="canonical" href="http://crimea-h2o.ru/polezno-znat" />
       </Helmet>

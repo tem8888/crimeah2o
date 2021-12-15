@@ -7,6 +7,7 @@ export default function kontakty() {
     <Layout>
       <Helmet>
         <meta charSet="utf-8" />
+        <meta name="description" content="Наши контакты: Тел. +7(978) 1151578, +7(978)0553090. Режим работы: С понедельника по воскресенье с 08:00 до 18:00"/>
         <title>Контакты</title>
         <link rel="canonical" href="https://crimea-h2o.ru/kontakty" />
       </Helmet>

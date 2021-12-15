@@ -7,6 +7,7 @@ export default function about() {
     <Layout>
       <Helmet>
         <meta charSet="utf-8" />
+        <meta name="description" content="Мы доставляем бесплатно по всему Симферополю и Симферопольскому району кристально чистую воду напрямую от производителей. Наша вода проходит все необходимые анализы и тесты, а также проводится ионная очистка источников."/>
         <title>О Компании</title>
         <link rel="canonical" href="http://crimea-h2o.ru/o-kompanii" />
       </Helmet>

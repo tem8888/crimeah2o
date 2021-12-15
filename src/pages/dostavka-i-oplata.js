@@ -7,6 +7,9 @@ export default function dostavka() {
     <Layout>
       <Helmet>
         <meta charSet="utf-8" />
+        <meta name="description" content="Мы предлагаем своим клиентам доставку воды и других товаров по
+        Симферополю. Доставка воды осуществляется оперативно и бесплатно!
+        Заказывать у нас выгодно!"/>
         <title>Доставка и оплата</title>
         <link rel="canonical" href="https://crimea-h2o.ru/dostavka-i-oplata" />
       </Helmet>

@@ -12,8 +12,11 @@ export default function Home({ data }) {
         <meta charSet="utf-8" />
         <title>Единая доставка воды в Крыму</title>
         <link rel="canonical" href="http://crimea-h2o.ru/" />
-        <meta name="description" content="Доставка воды в Крыму"/>
-        <meta name="keywords" content="вода, доставка, симферополь, крым"/>
+        <meta name="description" content="Доставка качественной питьевой воды по Симферополю и Симферопольскому району. Мы предлагаем вам, большой ассортимент вкусной и качественной воды,
+            которая прекрасно подходит, как для питья, так и для приготовления
+            пищи. Покупая у нас воду, вы получаете самые лучшие цены и
+            бесплатную доставку."/>
+        <meta name="keywords" content="вода, доставка, симферополь, бесплатная доставка, симферопольский район"/>
       </Helmet>
       <HomeMenu />
       <section className="seo">
