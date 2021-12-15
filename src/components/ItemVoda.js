@@ -6,7 +6,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 const ItemVoda = () => {
   const data = useStaticQuery(graphql`
     query Voda {
-      allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/(voda)/" } }) {
+      allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/(voda19l)/" } }) {
         nodes {
           html
           id
