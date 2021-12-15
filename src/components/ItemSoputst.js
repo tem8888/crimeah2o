@@ -5,9 +5,9 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 const ItemEquipment = () => {
   const data = useStaticQuery(graphql`
-    query Aksessuar {
+    query Soputst {
       allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/(aksessuary)/" } }
+        filter: { fileAbsolutePath: { regex: "/(soputst)/" } }
         sort: { fields: frontmatter___order }
       ) {
         nodes {

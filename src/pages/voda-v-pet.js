@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import { Helmet } from "react-helmet"
+import ItemVodaPet from "../components/ItemVodaPet"
 
 export default function errorPage() {
   return (
@@ -10,7 +11,8 @@ export default function errorPage() {
         <title>Вода в ПЭТ</title>
         <meta name="description" content="Доставка воды в ПЭТ в Крыму"/>
       </Helmet>
-      <div className="error404">Страница в разработке.</div>
+      <h1 style={{ textAlign: "center" }}>Вода в ПЭТ</h1>
+      <ItemVodaPet />
     </Layout>
   )
 }

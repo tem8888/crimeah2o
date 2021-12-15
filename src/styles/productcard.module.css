@@ -9,6 +9,7 @@
 
 .imgProduct {
   flex-grow: 1;
+  text-align: center;
 }
 .price {
   text-align: center;
