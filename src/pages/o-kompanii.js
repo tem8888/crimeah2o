@@ -1,16 +1,11 @@
 import React from "react"
 import Layout from "../components/Layout"
-import { Helmet } from "react-helmet"
+import Seo from "../components/Seo"
 
 export default function about() {
   return (
     <Layout>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <meta name="description" content="Мы доставляем бесплатно по всему Симферополю и Симферопольскому району кристально чистую воду напрямую от производителей. Наша вода проходит все необходимые анализы и тесты, а также проводится ионная очистка источников."/>
-        <title>О Компании</title>
-        <link rel="canonical" href="http://crimea-h2o.ru/o-kompanii" />
-      </Helmet>
+      <Seo title="О Компании" description="Компания «Единая доставка воды в Крыму» доставляет бесплатно по всему Симферополю и Симферопольскому району кристально чистую воду напрямую от производителей. Наша вода проходит все необходимые анализы и тесты, а также проводится ионная очистка источников."/>
       <div>
       <h1 style={{ textAlign: "center" }}>О компании</h1>
       <h3>ГЛАВНОЕ ДЛЯ НАС — ЗАБОТА О ВАС! </h3>

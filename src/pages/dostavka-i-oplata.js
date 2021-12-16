@@ -1,18 +1,13 @@
 import React from "react"
 import Layout from "../components/Layout"
-import { Helmet } from "react-helmet"
+import Seo from "../components/Seo"
 
 export default function dostavka() {
   return (
     <Layout>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <meta name="description" content="Мы предлагаем своим клиентам доставку воды и других товаров по
+      <Seo title="Доставка и оплата" description="Предлагаем своим клиентам доставку воды и других товаров по
         Симферополю. Доставка воды осуществляется оперативно и бесплатно!
         Заказывать у нас выгодно!"/>
-        <title>Доставка и оплата</title>
-        <link rel="canonical" href="https://crimea-h2o.ru/dostavka-i-oplata" />
-      </Helmet>
       <h1 style={{ textAlign: "center" }}>Доставка и оплата</h1>
       <p style={{ color: "red", fontWeight: "bold" }}>
         Мы предлагаем своим клиентам доставку воды и других товаров по
@@ -22,12 +17,11 @@ export default function dostavka() {
 
       <p>
         Чтоб заказать воду и ее доставку, вам нужно лишь связаться с нашим
-        менеджером по любому из указанных на сайте телефонов.
+        менеджером по любому из указанных на сайте телефонов.</p>
         <p style={{ fontSize: "24px", fontWeight: "bold" }}>
           {" "}
           Мы работаем даже в выходные дни!
         </p>
-      </p>
 
       <p>
         Сделайте звонок и получите вкусную питьевую воду по самой выгодной цене!

@@ -1,16 +1,11 @@
 import React from "react"
 import Layout from "../components/Layout"
-import { Helmet } from "react-helmet"
+import Seo from "../components/Seo"
 
 export default function kontakty() {
   return (
     <Layout>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <meta name="description" content="Наши контакты: Тел. +7(978) 1151578, +7(978)0553090. Режим работы: С понедельника по воскресенье с 08:00 до 18:00"/>
-        <title>Контакты</title>
-        <link rel="canonical" href="https://crimea-h2o.ru/kontakty" />
-      </Helmet>
+      <Seo title="Контакты" description="Контакты - номера телефонов и режим работы для заказа питьевой воды от компании «Единая доставка воды в Крыму»."/>
       <h1 style={{ textAlign: "center" }}>Контакты</h1>
       <p>
         {" "}

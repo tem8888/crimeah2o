@@ -1,20 +1,13 @@
 import React from "react"
-import { Helmet } from "react-helmet"
+import Seo from "../components/Seo"
 import Layout from "../components/Layout"
 
 export default function tech() {
   return (
     <Layout>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <meta name="description" content="Компания «Единая доставка воды в Крыму» оказываем услуги по ремонту оборудования, производит санобработку в специально
+      <Seo title="Техобслуживание и ремонт" description="«Единая доставка воды в Крыму» оказывает услуги по ремонту оборудования, производит санобработку в специально
           подготовленном для этого помещении с помощью высокоэффективных моющих
-          средств. На время ремонта или санитарной обработки мы
-          предоставим Вам другой кулер."/>
-          <meta name="keywords" content="вода, доставка, ремонт, оборудование, санобработка, кулер, симферополь, крым"/>
-        <title>Техобслуживание и ремонт</title>
-        <link rel="canonical" href="http://crimea-h2o.ru/tehobsluzhivanie-i-remont" />
-      </Helmet>
+          средств."/>
       <div>
       <h1 style={{ textAlign: "center" }}>Техобслуживание и ремонт</h1>
         <p>

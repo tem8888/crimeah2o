@@ -1,16 +1,12 @@
 import React from "react"
 import Layout from "../components/Layout"
-import { Helmet } from "react-helmet"
 import ItemVodaPet from "../components/ItemVodaPet"
+import Seo from "../components/Seo"
 
 export default function errorPage() {
   return (
     <Layout>
-      <Helmet>
-      <meta charSet="utf-8" />
-        <title>Вода в ПЭТ</title>
-        <meta name="description" content="Доставка воды в ПЭТ в Крыму"/>
-      </Helmet>
+      <Seo title="Вода в ПЭТ" description="«Единая доставка воды в Крыму» предлагает питьевую воду в бутылках ПЭТ объемом 0.5 литра, 1 литр, 1.5 литра."/>
       <h1 style={{ textAlign: "center" }}>Вода в ПЭТ</h1>
       <ItemVodaPet />
     </Layout>
