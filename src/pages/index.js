@@ -1,11 +1,9 @@
-import { graphql } from "gatsby"
 import React from "react"
 import HomeMenu from "../components/HomeMenu"
 import Layout from "../components/Layout"
 import Seo from "../components/Seo"
 
-export default function Home({ data }) {
-  // const { title, description } = data.site.siteMetadata
+export default function Home() {
   return (
     <Layout>
       <Seo title="Единая доставка воды в Крыму" />
@@ -65,14 +63,3 @@ export default function Home({ data }) {
     </Layout>
   )
 }
-
-export const query = graphql`
-  query MyQuery {
-    site {
-      siteMetadata {
-        description
-        title
-      }
-    }
-  }
-`
