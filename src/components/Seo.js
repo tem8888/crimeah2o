@@ -36,6 +36,18 @@ const SEO = ({ description, lang, meta, title, keywords}) => {
           name: `keywords`,
           content: metaKeywords,
         },
+        {
+          property: `og:title`,
+          content: title,
+        },
+        {
+          property: `og:description`,
+          content: metaDescription,
+        },
+        {
+          property: `og:type`,
+          content: `website`,
+        },
       ].concat(meta)}
     />
   )
