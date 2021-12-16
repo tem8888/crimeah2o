@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import { Helmet } from "react-helmet"
 import PropTypes from "prop-types"
+import img19l from "../images/19lw.jpg"
 
 const SEO = ({ description, lang, meta, title, keywords}) => {
   const {site} = useStaticQuery(graphql`
@@ -19,6 +20,7 @@ const SEO = ({ description, lang, meta, title, keywords}) => {
   const metaKeywords = keywords || site.siteMetadata.keywords
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
+  const siteUrl = site.siteMetadata.siteUrl
   return (
     <Helmet
       htmlAttributes={{
@@ -48,6 +50,14 @@ const SEO = ({ description, lang, meta, title, keywords}) => {
           property: `og:type`,
           content: `website`,
         },
+        {
+          property: `og:url`,
+          content: siteUrl,
+        },
+        {
+          property: `og:image`,
+          content: `${siteUrl + img19l}`,
+        }
       ].concat(meta)}
     />
   )
