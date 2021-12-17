@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet"
 import PropTypes from "prop-types"
 import img19l from "../images/19lw.jpg"
 
-const SEO = ({ description, lang, meta, title, keywords}) => {
+const SEO = ({ description, lang, meta, title, keywords, url}) => {
   const {site} = useStaticQuery(graphql`
     query SEO {
         site {
@@ -59,7 +59,9 @@ const SEO = ({ description, lang, meta, title, keywords}) => {
           content: `${siteUrl + img19l}`,
         }
       ].concat(meta)}
-    />
+    >
+      <link rel="canonical" href={url ? siteUrl + url : siteUrl} />
+    </Helmet>
   )
 }
 

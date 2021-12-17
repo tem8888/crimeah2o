@@ -2,7 +2,7 @@
 title: Кулер для воды Aqua Work 0.7-LK/B
 order: 11
 price: 5650
-featuredImage: ../../images/kuler/aqua-work-07-3.jpg
+featuredImage: ../../images/kuler/aqua-work-07lkb.jpg
 ---
 
 <table>

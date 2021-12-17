@@ -2,7 +2,7 @@
 title: Водораздатчик Aqua Work 105-LWR бело-черный
 order: 8
 price: 5250
-featuredImage: ../../images/kuler/aqua-work-07-3.jpg
+featuredImage: ../../images/kuler/aqua-work-105.jpg
 ---
 
 <table>

@@ -3,12 +3,11 @@ import ItemVoda from "../components/ItemVoda"
 import Layout from "../components/Layout"
 import Seo from "../components/Seo"
 
-export default function voda19({ data }) {
+export default function voda19() {
   return (
     <Layout>
       <Seo title="Вода 19 литров" description="«Единая доставка воды в Крыму» предлагает большой выбор питьевой воды в прочных
-          бутылях с бесплатной доставкой, 19 литров – это самый оптимальный объем, как для дома, так и
-          для офиса."/>
+          бутылях с бесплатной доставкой, 19 литров – это самый оптимальный объем, как для дома, так и для офиса." url="/voda-19-l"/>
       <h1 style={{ textAlign: "center" }}>Вода 19 литров</h1>
       <ItemVoda />
       <section className="seo">

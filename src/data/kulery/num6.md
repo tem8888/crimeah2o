@@ -2,7 +2,7 @@
 title: Кулер для воды Aqua Work 0.7-TDR бело-черный
 order: 6
 price: 5100
-featuredImage: ../../images/kuler/aqua-work-07-3.jpg
+featuredImage: ../../images/kuler/aqua-work-07-4.jpg
 ---
 
 <table>

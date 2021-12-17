@@ -2,7 +2,7 @@
 title: Кулер для воды Aqua Work 0.7-LKR белый
 order: 10
 price: 5400
-featuredImage: ../../images/kuler/aqua-work-07-3.jpg
+featuredImage: ../../images/kuler/aqua-work-07lkr.jpg
 ---
 
 <table>
