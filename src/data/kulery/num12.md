@@ -2,6 +2,8 @@
 title: Водораздатчик Aqua Work 16-LW/HLN бело-синий
 order: 12
 price: 6600
+cooling: no
+warming: no
 featuredImage: ../../images/kuler/aqua-work-07lwhln.jpg
 ---
 

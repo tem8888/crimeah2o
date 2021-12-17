@@ -2,6 +2,8 @@
 title: Кулер для воды Aqua Work TB-15 белый
 order: 9
 price: 5250
+cooling: yes
+warming: yes
 featuredImage: ../../images/kuler/aqua-work-tb15.jpg
 ---
 

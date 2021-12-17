@@ -2,6 +2,8 @@
 title: Водораздатчик Aqua Work 0.7-TWR белый
 order: 2
 price: 2750
+cooling: no
+warming: no
 featuredImage: ../../images/kuler/aqua-work-07-2.jpg
 ---
 

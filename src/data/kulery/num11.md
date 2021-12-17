@@ -2,6 +2,8 @@
 title: Кулер для воды Aqua Work 0.7-LK/B
 order: 11
 price: 5650
+cooling: no
+warming: yes
 featuredImage: ../../images/kuler/aqua-work-07lkb.jpg
 ---
 

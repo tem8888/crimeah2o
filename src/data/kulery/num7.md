@@ -2,6 +2,8 @@
 title: Кулер для воды Aqua Work 0.7-TDR белый
 order: 7
 price: 5100
+cooling: yes
+warming: yes
 featuredImage: ../../images/kuler/aqua-work-07-5.jpg
 ---
 

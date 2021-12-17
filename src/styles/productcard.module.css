@@ -10,6 +10,7 @@
 .imgProduct {
   flex-grow: 1;
   text-align: center;
+  position: relative;
 }
 .price {
   text-align: center;
@@ -35,6 +36,23 @@
 .productBody td + td {
   padding-left: 100px;
 }
+.coldIcon, .hotIcon {
+  width: 42px;
+  height: 42px;
+  display: block;
+  position: absolute;
+  top: 0;
+  padding: 4px;
+  border: 1px solid #2970a9;
+  border-radius: 20px;
+  background: white;
+  z-index: 100;
+}
+
+.coldIcon {
+  left: 45px;
+}
+
 
 @media (max-width: 600px) {
   .productBody td + td {

@@ -2,6 +2,8 @@
 title: Кулер для воды Aqua Work 1653-T белый
 order: 5
 price: 4200
+cooling: yes
+warming: yes
 featuredImage: ../../images/kuler/aqua-work-1653.jpg
 ---
 

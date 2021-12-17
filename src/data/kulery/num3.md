@@ -2,6 +2,8 @@
 title: Кулер для воды Aqua Work 720-T
 order: 3
 price: 3250
+cooling: no
+warming: yes
 featuredImage: ../../images/kuler/aqua-work-720.jpg
 ---
 
