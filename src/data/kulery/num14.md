@@ -15,6 +15,7 @@ featuredImage: ../../images/kuler/aqua-work-07lkr.jpg
 <tr><td>Охлаждение</td><td>≤ 12 ºС, не менее 1л/ч</td></tr>
 <tr><td>Мощность охлаждения</td><td>70 Вт</td></tr>
 <tr><td>В корпусе</td><td>шкафчик, объемом 10 л</td></tr>
+<tr><td>Управление</td><td>тумблеры вкл/выкл</td></tr>
 <tr><td>Габариты</td><td>298x280x848 мм</td></tr>
 <tr><td>Масса</td><td>5,77 кг</td></tr>
 <tr><td>Гарантия</td><td>24 мес.</td></tr>

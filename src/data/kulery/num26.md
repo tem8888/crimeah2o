@@ -4,7 +4,7 @@ order: 25
 price: 9600
 cooling: yes
 warming: yes
-featuredImage: ../../images/kuler/aqua-work-105ld-5.jpg
+featuredImage: ../../images/kuler/aqua-work-16ld-5.jpg
 ---
 
 <table>

@@ -15,6 +15,7 @@ featuredImage: ../../images/kuler/aqua-work-36tdn-2.jpg
 <tr><td>Охлаждение</td><td>≤ 12 ºС, не менее 1л/ч</td></tr>
 <tr><td>Мощность охлаждения</td><td>70 Вт</td></tr>
 <tr><td>Стаканодержатели</td><td>нельзя установить</td></tr>
+<tr><td>Управление</td><td>функция ЭКО</td></tr>
 <tr><td>Габариты</td><td>305х310х410 мм</td></tr>
 <tr><td>Масса</td><td>3,3 кг</td></tr>
 <tr><td>Гарантия</td><td>24 мес.</td></tr>

@@ -13,6 +13,7 @@ featuredImage: ../../images/kuler/aqua-work-720.jpg
 <tr><td>Нагрев</td><td>≥ 90 ºС, не менее 4л/ч</td></tr>
 <tr><td>Мощность нагрева</td><td>420 Вт</td></tr>
 <tr><td>Охлаждение</td><td>-</td></tr>
+<tr><td>Управление</td><td>тумблеры вкл/выкл</td></tr>
 <tr><td>Габариты</td><td>315x285x365 мм</td></tr>
 <tr><td>Масса</td><td>1,9 кг</td></tr>
 <tr><td>Гарантия</td><td>24 мес.</td></tr>

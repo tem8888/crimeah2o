@@ -16,6 +16,7 @@ featuredImage: ../../images/kuler/aqua-work-105ldr.jpg
 <tr><td>Мощность охлаждения</td><td>70 Вт</td></tr>
 <tr><td>Стаканодержатели</td><td>на магнитах</td></tr>
 <tr><td>В корпусе</td><td>шкафчик, объемом 10 л</td></tr>
+<tr><td>Управление</td><td>тумблеры вкл/выкл</td></tr>
 <tr><td>Габариты</td><td>308х340х960 мм</td></tr>
 <tr><td>Масса</td><td>7,98 кг</td></tr>
 <tr><td>Гарантия</td><td>24 мес.</td></tr>

@@ -14,6 +14,7 @@ featuredImage: ../../images/kuler/aqua-work-1653.jpg
 <tr><td>Мощность нагрева</td><td>420 Вт</td></tr>
 <tr><td>Охлаждение</td><td>≤ 15 ºС, не менее 0.6л/ч</td></tr>
 <tr><td>Мощность охлаждения</td><td>80 Вт</td></tr>
+<tr><td>Управление</td><td>тумблеры вкл/выкл</td></tr>
 <tr><td>Габариты</td><td>279x306x415 мм</td></tr>
 <tr><td>Масса</td><td>3,9 кг</td></tr>
 <tr><td>Гарантия</td><td>24 мес.</td></tr>

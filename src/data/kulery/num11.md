@@ -14,6 +14,7 @@ featuredImage: ../../images/kuler/aqua-work-07lkb.jpg
 <tr><td>Мощность нагрева</td><td>700 Вт</td></tr>
 <tr><td>Охлаждение</td><td>-</td></tr>
 <tr><td>Мощность охлаждения</td><td>-</td></tr>
+<tr><td>Управление</td><td>тумблеры вкл/выкл</td></tr>
 <tr><td>В корпусе</td><td>шкафчик, объемом 10 л</td></tr>
 <tr><td>Габариты</td><td>290x260x860 мм</td></tr>
 <tr><td>Масса</td><td>3 кг</td></tr>
