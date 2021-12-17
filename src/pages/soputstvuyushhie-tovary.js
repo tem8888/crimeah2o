@@ -6,7 +6,7 @@ import ItemSoputst from "../components/ItemSoputst"
 export default function errorPage() {
   return (
     <Layout>
-      <Seo title="Вода 19 литров" description="Компания «Единая доставка воды в Крыму» предлагает приобрести сопутствующие товары - бумажные и пластиковые стаканы, 3-секционные тарелки."/>
+      <Seo title="Сопутствующие товары" description="Компания «Единая доставка воды в Крыму» предлагает приобрести сопутствующие товары - бумажные и пластиковые стаканы, 3-секционные тарелки."/>
       <h1 style={{ textAlign: "center" }}>Сопутствующие товары</h1>
       <ItemSoputst />
     </Layout>
