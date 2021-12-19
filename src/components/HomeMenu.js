@@ -12,23 +12,23 @@ export default function HomeMenu() {
     <div className={styles.homeMenu}>
       <Link to="/voda-19-l">
         <img src={img19l} alt="Вода 19л" />
-        Вода 19 литров
+        <h2>Вода 19 литров</h2>
       </Link>
       <Link to="/voda-v-pet">
         <img src={imgPet} alt="Вода в ПЭТ" />
-        Вода в ПЭТ
+        <h2>Вода в ПЭТ</h2>
       </Link>
       <Link to="/kulery">
         <img src={imgOborud} alt="Кулеры для воды" />
-        Кулеры для воды
+        <h2>Кулеры для воды</h2>
       </Link>
       <Link to="/soputstvuyushhie-tovary">
         <img src={imgPosuda} alt="Сопутствующие товары" />
-        Сопутствующие товары
+        <h2>Сопутствующие товары</h2>
       </Link>
       <Link to="/pompy">
         <img src={imgPomp} alt="Помпы" />
-        Помпы
+        <h2>Помпы</h2>
       </Link>
     </div>
   )

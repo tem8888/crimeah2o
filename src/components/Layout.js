@@ -15,14 +15,13 @@ export default function Layout({ children }) {
     <div className="layout">
       <Helmet>
         <meta name="yandex-verification" content="90586fa2622677ce" />
-        {/* <script src="../scripts/yandex.js" type="text/javascript" /> */}
        </Helmet>
        <YMInitializer accounts={[86876986]} />
       <header>
         <MobileNav />
         <div className="top-header">
           <Link to="/">
-            <h1><img src={imgLogo} alt="Бесплатная доставка воды в Крыму и Симферополе" /></h1>
+            <h1><img src={imgLogo} alt="Заказ воды в бутылях, воды в ПЭТ, кулеров в Симферополе и бесплатная доставка" /></h1>
           </Link>
           <div className="info">
             <span className="info__header">Заказ воды:</span>
