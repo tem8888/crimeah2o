@@ -60,7 +60,8 @@ const SEO = ({ description, lang, meta, title, keywords, url}) => {
         }
       ].concat(meta)}
     >
-      <link rel="canonical" href={url ? siteUrl + url : siteUrl} />
+      {url ? <link rel="canonical" href={siteUrl + url} /> : null}
+      
     </Helmet>
   )
 }
