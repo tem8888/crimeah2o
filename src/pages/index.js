@@ -6,7 +6,7 @@ import Seo from "../components/Seo"
 export default function Home() {
   return (
     <Layout>
-      <Seo url="/"/>
+      <Seo title="Единая доставка воды в Крыму" url="/"/>
       <HomeMenu />
       <section className="seo">
         <h3>Большой выбор и лучшие цены!</h3>

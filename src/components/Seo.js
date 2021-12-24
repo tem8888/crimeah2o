@@ -26,7 +26,7 @@ const SEO = ({ description, lang, meta, title, keywords, url}) => {
       htmlAttributes={{
         lang,
       }}
-      title={title ? title : defaultTitle}
+      title={title}
       keywords={keywords}
       titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
       meta={[
