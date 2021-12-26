@@ -21,7 +21,7 @@ export default function Layout({ children }) {
         <MobileNav />
         <div className="top-header">
           <Link to="/">
-            <h1><img src={imgLogo} alt="Заказ воды в Симферополе c бесплатной доставкой" /></h1>
+            <img src={imgLogo} alt="Заказ воды в Симферополе c бесплатной доставкой" />
           </Link>
           <div className="info">
             <span className="info__header">Заказ воды:</span>
