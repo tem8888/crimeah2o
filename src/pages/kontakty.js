@@ -5,7 +5,10 @@ import Seo from "../components/Seo"
 export default function kontakty() {
   return (
     <Layout>
-      <Seo title="Контакты" description="Контакты - номера телефонов и режим работы для заказа питьевой воды от компании «Единая доставка воды в Крыму»."/>
+      <Seo 
+        title="Контакты" 
+        description="Контакты - номера телефонов и режим работы для заказа питьевой воды от компании «Единая доставка воды в Крыму»."
+        url="/kontakty"/>
       <h1 style={{ textAlign: "center" }}>Контакты</h1>
       <p>
         {" "}
