@@ -114,6 +114,9 @@ nav {
   font-size: 2rem;
   padding-right: 20px;
 }
+.seo h1 {
+  font-size: 1.5rem;
+}
 
 .error404 {
   text-align: center;
