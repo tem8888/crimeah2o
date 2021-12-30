@@ -22,7 +22,6 @@ export default function Layout({ children }) {
         <div className="top-header">
           <Link to="/">
             <Logo />
-            {/* <img src={imgLogo} alt="Заказ воды в Симферополе c бесплатной доставкой" /> */}
           </Link>
           <div className="info">
             <span className="info__header">Заказ воды:</span>

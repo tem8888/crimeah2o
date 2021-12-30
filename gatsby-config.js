@@ -13,6 +13,7 @@ module.exports = {
     keywords: `доставка воды, заказ воды, бесплатная доставка воды, Симферополь, вода в бутылях, вода 19 литров`
   },
   plugins: [
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -27,7 +28,6 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
-    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     "gatsby-transformer-remark",
