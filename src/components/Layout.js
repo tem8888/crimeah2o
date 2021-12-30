@@ -5,10 +5,9 @@ import "../styles/global.css"
 import NavBar from "../components/NavBar"
 import SideBar from "../components/SideBar"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 import Footer from "./Footer"
 import MobileNav from "./MobileNav"
-// import imgLogo from "../images/logo.png"
+import {Logo} from "./Logo.js"
 import { YMInitializer } from 'react-yandex-metrika';
 
 export default function Layout({ children }) {
@@ -22,11 +21,7 @@ export default function Layout({ children }) {
         <MobileNav />
         <div className="top-header">
           <Link to="/">
-            <StaticImage 
-              src="../images/logo.png" alt="Единая доставка воды в Крыму - логотип"
-              placeholder="none"
-              loading="eager"
-              layout="fixed"/>
+            <Logo />
             {/* <img src={imgLogo} alt="Заказ воды в Симферополе c бесплатной доставкой" /> */}
           </Link>
           <div className="info">
