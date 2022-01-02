@@ -7,7 +7,7 @@ export default function kulery() {
   return (
     <Layout>
       <Seo 
-        title="Кулеры для воды" 
+        title="Кулеры для воды | Единая доставка воды в Крыму" 
         description="Компания «Единая доставка воды в Крыму» проиводит доставку кулеров для воды в Симферополе и симферопольском районе." 
         url="/kulery"/>
       <h1 style={{ textAlign: "center" }}>Кулеры для воды</h1>

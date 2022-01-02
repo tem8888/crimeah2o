@@ -6,9 +6,10 @@ import Seo from "../components/Seo"
 export default function Home() {
   return (
     <Layout>
-      <Seo title="Единая доставка воды в Крыму" url="/"/>
+      <Seo title="Единая доставка воды в Крыму | Доставка питьевой воды в Симферополе" url="/"/>
       <HomeMenu />
       <section className="seo">
+        <h1>Единая доставка воды в Крыму</h1>
         <h3>Большой выбор и лучшие цены!</h3>
         <p>
           Научно доказано – очищенная вода гораздо лучше усваивается организмом

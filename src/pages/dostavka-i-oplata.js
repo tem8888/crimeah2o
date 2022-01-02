@@ -5,7 +5,7 @@ import Seo from "../components/Seo"
 export default function dostavka() {
   return (
     <Layout>
-      <Seo title="Доставка и оплата" description="Предлагаем своим клиентам доставку воды и других товаров по
+      <Seo title="Доставка и оплата | Единая доставка воды в Крыму" description="Предлагаем своим клиентам доставку воды и других товаров по
         Симферополю. Доставка воды осуществляется оперативно и бесплатно!
         Заказывать у нас выгодно!"
         url="/dostavka-i-oplata"/>
