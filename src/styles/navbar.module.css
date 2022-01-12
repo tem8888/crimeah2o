@@ -5,6 +5,8 @@
 }
 
 .links > a {
+  flex: auto;
+  text-align: center;
   padding: 10px 0;
   margin: 5px 0;
   border: 1px solid transparent;
