@@ -13,12 +13,15 @@
   font-weight: 600;
   flex: 0 1 100%;
 }
+.homeMenuImage {
+  margin-bottom: 15px;
+}
 
-.homeMenu > a > h2 {
+/* .homeMenu > a > span {
   font-size: 1.2rem;
   font-weight: 600;
   margin-top: 15px;
-}
+} */
 
 .homeMenu > a > img {
   width: 160px;

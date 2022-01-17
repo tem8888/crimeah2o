@@ -17,9 +17,9 @@ export default function HomeMenu() {
             placeholder="none"
             loading="eager"
             width={160}
-            height={160}/>
-          {/* <img src={img19l} alt="Вода 19л" /> */}
-          <h2>Вода 19 литров</h2>
+            height={160}
+            class={styles.homeMenuImage}/>
+        Вода 19 литров
       </Link>
       <Link to="/voda-v-pet">
         <StaticImage 
@@ -27,9 +27,9 @@ export default function HomeMenu() {
             placeholder="none"
             loading="eager"
             width={160}
-            height={160}/>
-          {/* <img src={imgPet} alt="Вода в ПЭТ" /> */}
-          <h2>Вода в ПЭТ</h2>
+            height={160}
+            class={styles.homeMenuImage}/>
+        Вода в ПЭТ
       </Link>
       <Link to="/kulery">
           <StaticImage 
@@ -37,9 +37,9 @@ export default function HomeMenu() {
             placeholder="none"
             loading="eager"
             width={160}
-            height={160}/>
-          {/* <img src={imgOborud} alt="Кулеры для воды" /> */}
-          <h2>Кулеры для воды</h2>
+            height={160}
+            class={styles.homeMenuImage}/>
+        Кулеры для воды
         </Link>
       <Link to="/soputstvuyushhie-tovary">
         <StaticImage 
@@ -47,9 +47,9 @@ export default function HomeMenu() {
             placeholder="none"
             loading="eager"
             width={160}
-            height={160}/>
-          {/* <img src={imgPosuda} alt="Сопутствующие товары" /> */}
-          <h2>Сопутствующие товары</h2>
+            height={160}
+            class={styles.homeMenuImage}/>
+        Сопутствующие товары
       </Link>
       <Link to="/pompy">
         <StaticImage 
@@ -57,9 +57,9 @@ export default function HomeMenu() {
             placeholder="none"
             loading="eager"
             width={160}
-            height={160}/>
-          {/* <img src={imgPomp} alt="Помпы" /> */}
-          <h2>Помпы</h2>
+            height={160}
+            class={styles.homeMenuImage}/>
+        Помпы
       </Link>
     </div>
   )
