@@ -27,8 +27,6 @@ img {
   max-width: 100%;
 }
 
-
-
 h3 {
   margin: 5px 0;
 }
@@ -117,7 +115,9 @@ nav {
 .seo h1 {
   font-size: 1.5rem;
 }
-
+.seo h2 {
+  font-size: 1.2rem;
+}
 .error404 {
   text-align: center;
   font-size: 2rem;
