@@ -34,7 +34,7 @@
   color: rgb(255, 255, 255);
   background-image: linear-gradient(#9dc7e7, #74afdd 50%, #378bce);
 }
-.aside > nav > a:focus {
+.aside > nav > a:focus-visible {
   color: rgb(0, 0, 0);
   background-image: linear-gradient(#9dc7e7, #74afdd 50%, #378bce);
 }
