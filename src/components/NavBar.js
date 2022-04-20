@@ -3,15 +3,7 @@ import { Link} from "gatsby"
 import * as styles from "../styles/navbar.module.css"
 
 export default function NavBar() {
-  // const data = useStaticQuery(graphql`
-  //   query titleQuery {
-  //     site {
-  //       siteMetadata {
-  //         title
-  //       }
-  //     }
-  //   }
-  // `)
+
   return (
     <nav className={styles.links}>
       <Link to="/">Главная</Link>
