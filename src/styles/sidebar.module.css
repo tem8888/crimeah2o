@@ -34,11 +34,17 @@
   color: rgb(255, 255, 255);
   background-image: linear-gradient(#9dc7e7, #74afdd 50%, #378bce);
 }
-.aside > nav > a:focus {
+.aside > nav > a:focus-visible {
   color: rgb(0, 0, 0);
   background-image: linear-gradient(#9dc7e7, #74afdd 50%, #378bce);
 }
 .aside > nav > a:active {
+  color: rgb(255, 255, 255);
+  border-color: #2970a9;
+  background-image: linear-gradient(#5796c8, #6aa2ce);
+  box-shadow: none;
+}
+.aside > nav > a:target {
   color: rgb(255, 255, 255);
   border-color: #2970a9;
   background-image: linear-gradient(#5796c8, #6aa2ce);
