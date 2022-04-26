@@ -1,7 +1,7 @@
 ---
 title: Помпа «Лилу» Эконом 
 order: 1
-price: 300
+price: 350
 featuredImage: ../../images/pompa-lilu-ekonom.png
 ---
 
