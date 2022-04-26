@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import * as styles from "../styles/productcard.module.css"
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import ProductCard from "./ProductCard"
 
 const ItemVoda = () => {
   const data = useStaticQuery(graphql`
@@ -28,18 +28,11 @@ const ItemVoda = () => {
   return (
     <div>
       {products.map(product => (
-        <div className={styles.productCard} key={product.id}>
-          <div className={styles.imgProduct}>
-            <GatsbyImage
-              image={getImage(product.frontmatter.featuredImage)}
-              alt={product.frontmatter.title}
-            />
-          </div>
-          <div className={styles.productBody}>
-            <h2>{product.frontmatter.title}</h2>
-            <div dangerouslySetInnerHTML={{ __html: product.html }}></div>
-          </div>
-        </div>
+        <ProductCard 
+          product={product}
+          styles={styles}
+          showPrice={false}
+        />
       ))}
     </div>
   )
