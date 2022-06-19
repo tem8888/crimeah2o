@@ -1,8 +1,3 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
@@ -13,7 +8,29 @@ module.exports = {
     siteUrl: `https://crimea-h2o.ru`,
     title: `Единая доставка воды в Крыму`,
     description: `Бесплатная доставка питьевой воды в Симферополе. Большой ассортимент вкусной и качественной воды в бутылях 19л. Заказ воды: г. Симферополь, тел. +7(978) 869-0005, +7(978) 869-0009. Режим работы: пн-вс 08:00 - 18:00.`,
-    keywords: `доставка воды симферополь, купить воду, заказ воды, вода 19 литров, вода в пэт, помпы, кулеры для воды`
+    keywords: `доставка воды симферополь, купить воду, заказ воды, вода 19 литров, вода в пэт, помпы, кулеры для воды`,
+    menuLinks: [
+      {
+        name: 'Главная',
+        link: '/'
+      },
+      {
+        name: 'Техобслуживание и ремонт',
+        link: '/tehobsluzhivanie-i-remont'
+      },
+      {
+        name: 'Полезно знать',
+        link: '/dostavka-i-oplata'
+      },
+      {
+        name: 'Контакты',
+        link: '/kontakty'
+      },
+      {
+        name: 'О компании',
+        link: '/o-kompanii'
+      },
+    ]
   },
   plugins: [
     `gatsby-plugin-image`,

@@ -1,28 +1,44 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import "normalize.css"
-import "../styles/global.css"
-import NavBar from "../components/NavBar"
-import SideBar from "../components/SideBar"
-import { Link } from "gatsby"
+import { graphql, useStaticQuery} from "gatsby"
+import { Logo } from "./Logo.js"
+import { YMInitializer } from 'react-yandex-metrika'
+import PropTypes from "prop-types"
+import SideBar from "./SideBar"
 import Footer from "./Footer"
 import MobileNav from "./MobileNav"
-import {Logo} from "./Logo.js"
-import { YMInitializer } from 'react-yandex-metrika';
+import NavBar from "./NavBar"
+import "normalize.css"
+import "../styles/global.css"
 
 export default function Layout({ children }) {
+
+  const {site} = useStaticQuery(graphql`
+    query getMenuLinks {
+        site {
+            siteMetadata {
+                menuLinks {
+                  name
+                  link
+                }
+            }
+          }
+    }
+  `)
+
   return (
     <div className="layout">
       <Helmet>
         <meta name="yandex-verification" content="90586fa2622677ce" />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap" rel="stylesheet"/> 
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet"/> 
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet"/> 
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap" rel="stylesheet"/> 
        </Helmet>
-       <YMInitializer accounts={[86876986]} />
       <header>
         <MobileNav />
         <div className="top-header">
-          <Link to="/">
-            <Logo />
-          </Link>
+          <Logo /> 
           <div className="info">
             <span className="info__header">Заказ воды:</span>
             <br />
@@ -35,9 +51,9 @@ export default function Layout({ children }) {
             пн-вс 08:00 - 18:00 <br />
           </div>
         </div>
-        <NavBar />
+        
       </header>
-
+      <NavBar links={site.siteMetadata.menuLinks }/>
       <main className="main">
         <SideBar />
         <div className="content">
@@ -47,6 +63,11 @@ export default function Layout({ children }) {
       </main>
 
       <Footer />
+      <YMInitializer accounts={[86876986]} />
     </div>
   )
+}
+
+Layout.propTypes = {
+  children: PropTypes.arrayOf(PropTypes.node)
 }
