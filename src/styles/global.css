@@ -144,6 +144,7 @@ nav {
   background: url("../images/icons/arrow.png");
   background-color: white;
   border-radius: 30%;
+  z-index: 1001;
 }
 .arrow-top-btn:hover {
   cursor: pointer;
@@ -174,5 +175,9 @@ nav {
   }
   body {
     background-color: var(--blue-col);
+  }
+  .arrow-top-btn {
+    right: 2rem;
+    bottom: 2rem;
   }
 }

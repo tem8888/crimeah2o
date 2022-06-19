@@ -66,4 +66,7 @@
   .productCard h2{
     padding: 0.5em 0;
   }
+  .productBody {
+    margin: 0;
+  }
 }
