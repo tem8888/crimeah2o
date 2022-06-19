@@ -5,7 +5,6 @@ import Layout from "../components/Layout"
 import Seo from "../components/Seo"
 
 export default function Kulery() {
-
   const data = useStaticQuery(graphql`
     query Kulery {
       allMarkdownRemark(
@@ -33,29 +32,8 @@ export default function Kulery() {
   `)
   const products = data.allMarkdownRemark.nodes
 
-  const [visible, setVisible] = React.useState(false)
   const [count, setCount] = React.useState(1)
   const productsPerPage = 12
-
-  React.useEffect(() => {
-    const onScrollChange = () => {
-      if (window.scrollY > 1000) {
-        setVisible(true)
-      } else {
-        setVisible(false)
-      }
-    }
-    document.addEventListener('scroll', onScrollChange)
-    return () => document.removeEventListener('scroll', onScrollChange)
-
-  }, [])
-
-  const scrollUp = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    })
-  }
 
   const renderShowMoreButton = () => {
     if (productsPerPage*count < products.length) {
@@ -65,11 +43,6 @@ export default function Kulery() {
         </div>
       ) 
     }
-  }
-  const renderScrollTopButton = () => {
-      return (
-        <div className={`arrow-top-btn ${!visible && 'hidden'}`} onClick={scrollUp} />
-      )
   }
 
   return (
@@ -90,7 +63,6 @@ export default function Kulery() {
         ) 
       })}
       {renderShowMoreButton()}
-      {renderScrollTopButton()}
     </Layout>
   )
 }

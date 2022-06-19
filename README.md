@@ -10,9 +10,16 @@
 
 ## General Info
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+Static website developed with Gatsby for Bottled Water Delivery Company "Единая доставка воды в Крыму". It displays some stuff for sale (only by the phone): water, water coolers, water pump, etc.
+
+## Features
+
+- GraphQL
+- CSS modules
+- Responsive design
+- SEO optimization
+- Google and Yandex Analytics
 
 ## Technologies
 Project is created with:
 - **Gatsby 3** 
-- **CSS Modules**

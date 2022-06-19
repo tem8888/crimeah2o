@@ -35,7 +35,6 @@ ul {
 
 p {
   line-height: 1.6;
-  text-align: justify;
   margin-bottom: 15px;
 }
 
@@ -63,7 +62,7 @@ p {
 
 .content {
   width: 100%;
-  padding: 0 20px;
+  padding: 0 30px;
 }
 
 nav {
@@ -143,6 +142,8 @@ nav {
   right: 3rem;
   bottom: 3rem;
   background: url("../images/icons/arrow.png");
+  background-color: white;
+  border-radius: 30%;
 }
 .arrow-top-btn:hover {
   cursor: pointer;

@@ -25,6 +25,33 @@ export default function Layout({ children }) {
           }
     }
   `)
+  const [visible, setVisible] = React.useState(false)
+
+  React.useEffect(() => {
+    const onScrollChange = () => {
+      if (window.scrollY > 1000) {
+        setVisible(true)
+      } else {
+        setVisible(false)
+      }
+    }
+    document.addEventListener('scroll', onScrollChange)
+    return () => document.removeEventListener('scroll', onScrollChange)
+
+  }, [])
+
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
+
+  const renderScrollTopButton = () => {
+    return (
+      <div className={`arrow-top-btn ${!visible && 'hidden'}`} onClick={scrollUp} />
+    )
+  }
 
   return (
     <div className="layout">
@@ -61,7 +88,7 @@ export default function Layout({ children }) {
           {children}
         </div>
       </main>
-
+      {renderScrollTopButton()}
       <Footer />
       <YMInitializer accounts={[86876986]} />
     </div>
