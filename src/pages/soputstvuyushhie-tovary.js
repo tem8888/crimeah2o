@@ -1,9 +1,34 @@
 import React from "react"
 import Layout from "../components/Layout"
 import Seo from "../components/Seo"
-import ItemSoputst from "../components/ItemSoputst"
+import { graphql, useStaticQuery } from "gatsby"
+import ProductCard from "../components/ProductCard"
 
-export default function errorPage() {
+export default function Soputst() {
+  const data = useStaticQuery(graphql`
+    query Soputst {
+      allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/(soputst)/" } }
+        sort: { fields: frontmatter___order }
+      ) {
+        nodes {
+          html
+          id
+          frontmatter {
+            order
+            price
+            title
+            featuredImage {
+              childImageSharp {
+                gatsbyImageData(width: 160)
+              }
+            }
+          }
+        }
+      }
+    }
+  `)
+  const products = data.allMarkdownRemark.nodes
   return (
     <Layout>
       <Seo 
@@ -11,7 +36,15 @@ export default function errorPage() {
         description="Компания «Единая доставка воды в Крыму» предлагает приобрести сопутствующие товары - бумажные и пластиковые стаканы, 3-секционные тарелки." 
         url="/soputstvuyushhie-tovary"/>
       <h1 style={{ textAlign: "center" }}>Сопутствующие товары</h1>
-      <ItemSoputst />
+      {products.map(product => {
+        return (
+          <ProductCard 
+            key={product.id} 
+            product={product} 
+            showPrice={true}
+          />
+        ) 
+      })}
     </Layout>
   )
 }

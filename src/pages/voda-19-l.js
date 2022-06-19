@@ -1,15 +1,45 @@
 import React from "react"
-import ItemVoda from "../components/ItemVoda"
+import { graphql, useStaticQuery } from "gatsby"
+import ProductCard from "../components/ProductCard"
 import Layout from "../components/Layout"
 import Seo from "../components/Seo"
 
-export default function voda19() {
+export default function Voda19() {
+  const data = useStaticQuery(graphql`
+    query Voda {
+      allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/(voda19l)/" }, frontmatter: {outofstock: {ne : true}}}) {
+        nodes {
+          html
+          id
+          frontmatter {
+            order
+            price
+            title
+            featuredImage {
+              childImageSharp {
+                gatsbyImageData(width: 160)
+              }
+            }
+          }
+        }
+      }
+    }
+  `)
+  const products = data.allMarkdownRemark.nodes
   return (
     <Layout>
       <Seo title="Вода 19 литров | Единая доставка воды в Крыму" description="«Единая доставка воды в Крыму» предлагает большой выбор питьевой воды в прочных
           бутылях с бесплатной доставкой, 19 литров – это самый оптимальный объем, как для дома, так и для офиса." url="/voda-19-l"/>
       <h1 style={{ textAlign: "center" }}>Вода 19 литров</h1>
-      <ItemVoda />
+      {products.map(product => {
+        return (
+          <ProductCard 
+            key={product.id} 
+            product={product} 
+            showPrice={true}
+          />
+        ) 
+      })}
       <section className="seo">
         <h2>Вода в бутылях на 19 литров</h2>
         <p>
