@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://crimea-h2o.ru/">
-    <img alt="Gatsby" src="https://github.com/tem8888/crimeah2o/blob/main/src/images/logo.png?raw=true" width="100" />
+    <img alt="Gatsby" src="https://github.com/tem8888/crimeah2o/blob/main/src/images/logo.png?raw=true" width="300" />
   </a>
 </p>
 <h1 align="center">
