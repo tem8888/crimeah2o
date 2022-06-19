@@ -13,7 +13,7 @@ export default function HomeMenu() {
             loading="eager"
             width={160}
             height={160}
-            class={styles.homeMenuImage}/>
+            className={styles.homeMenuImage}/>
         Вода 19 литров
       </Link>
       <Link to="/voda-v-pet">
@@ -23,7 +23,7 @@ export default function HomeMenu() {
             loading="eager"
             width={160}
             height={160}
-            class={styles.homeMenuImage}/>
+            className={styles.homeMenuImage}/>
         Вода в ПЭТ
       </Link>
       <Link to="/kulery">
@@ -33,7 +33,7 @@ export default function HomeMenu() {
             loading="eager"
             width={160}
             height={160}
-            class={styles.homeMenuImage}/>
+            className={styles.homeMenuImage}/>
         Кулеры для воды
         </Link>
       <Link to="/soputstvuyushhie-tovary">
@@ -43,7 +43,7 @@ export default function HomeMenu() {
             loading="eager"
             width={160}
             height={160}
-            class={styles.homeMenuImage}/>
+            className={styles.homeMenuImage}/>
         Сопутствующие товары
       </Link>
       <Link to="/pompy">
@@ -53,7 +53,7 @@ export default function HomeMenu() {
             loading="eager"
             width={160}
             height={160}
-            class={styles.homeMenuImage}/>
+            className={styles.homeMenuImage}/>
         Помпы
       </Link>
     </div>
